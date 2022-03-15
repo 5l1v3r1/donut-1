@@ -27,11 +27,11 @@ def main() -> None:
         grid, _grid = [" "] * H * W, [0] * 4 * H * W
 
         j = 0
-        while j < pi * 2:
+        while j < PI2:
             j += SPEED_I
             i = 0
 
-            while i < pi * 2:
+            while i < PI2:
                 i += SPEED_J
 
                 sa, sb, sc, sd, ca, cb, cc, cd = (
